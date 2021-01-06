@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym</title>
+    <style>
+
+     body{
+         margin: 0px;
+         padding: 0px;
+         background-image: url('gym.jpg');
+         background-repeat: no-repeat;
+         background-size: 100% 600px;       
+
+    }
+     .left{
+       /* border: 2px solid blue; */
+        display: inline-block;
+        position: absolute;
+         left: 20px;
+         top: 5px;
+     }
+     .mid{
+
+        /* border: 2px solid blue; */
+         display: block;
+         width: 50%;
+         margin: 5px auto;
+        
+        
+        
+     }
+     .right{
+        
+        
+         /* border:2px solid chocolate; */
+         display: inline-block;
+         position: absolute;
+         right: 20px;
+         top: 5px;
+
+     }
+     /* .navbar ul{
+         float: left;
+     } */
+     .navbar{
+         display: inline-block;
+     }
+
+   .navbar  li{
+    display: inline-block;
+         list-style: none;
+    }
+    .navbar li a{
+        text-decoration: none;
+        padding: 20px;
+        margin-left: 40px;
+        font-style: italic;
+        color: black;
+    }
+    .navbar li a:hover{
+        color: white;
+    }
+    .left img{
+        width: 130px;
+        height: 70px;
+    }
+    .left p{
+        text-align: center;
+        color: white;
+        margin-top: 0px;
+        font-style: italic;
+    }
+    .btn{
+        background-color: black;
+        color: white;
+        border-radius: 5px;
+        cursor: pointer;
+        padding: 10px;
+        font-style: italic;
+    }
+    .btn:hover{
+        background-color: rgb(39, 37, 37);
+    }
+    .container{
+        border: 2px solid white;
+        border: 2px solid white;
+        margin: 60px 20px;
+        padding: 90px;
+        padding-top: 5px;
+        border-radius: 10px;
+        width: 25%;
+        height: 280px;
+    }
+    h2{
+        color: rgb(51, 133, 136);
+        font-style: italic;
+    }
+    .form_grp input{
+
+        display: block;
+    margin: 10px auto;
+    width: 250px;
+    size: 10px;
+    padding: 10px;
+    border-radius: 11px;
+    }
+    .form_grp .btn{
+        display: block;
+        width: 150px;
+        margin: 20px auto;
+    }
+
+    </style>
+</head>
+<body>
+   
+    <header class="header">
+
+        <div class="left">
+           <img src="img.jpg" alt="myphoto">
+           <p>Aabid Fitness</p>
+        </div>
+
+        <div class="mid">
+
+            <nav class="navbar">
+
+                <ul>
+           
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Equipments</a></li>
+                    <li><a href="#">Service</a></li>
+                    <li><a href="#">Contact us</a></li>
+       
+                  </ul>
+            </nav>
+           
+        </div>
+
+        <div class="right">
+            <button class="btn" type="submit">Contact us</button>
+            <button class="btn" type="submit">Email us</button>
+        </div>
+
+    
+    </header>
+
+    <div class="container">
+         <h2>Join the best gym in Delhi</h2>
+
+         <div class="form_grp">
+           
+            <form action="xyz.php">
+            
+                <div>
+                    <input type="text" name="" id="" placeholder="enter  your name">
+                </div>
+
+                <div>
+                    <input type="text" name="" id="" placeholder="enter your mail id">
+                </div>
+
+                <div>
+                    <input type="text" name="" id="" placeholder="enter your phone number">
+                </div>
+
+                <button class="btn" type="submit">Submit</button>
+        </form>
+         </div>
+    </div>
+</body>
+</html>
